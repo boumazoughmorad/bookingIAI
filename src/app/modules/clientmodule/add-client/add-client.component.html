@@ -1,0 +1,64 @@
+<br><br><br>
+<div class="container">
+   
+    <div class="row">
+      <div class="col-md-7 aos-init aos-animate" data-aos="fade-up" data-aos-delay="100">
+        
+        <form action="#" method="post" class="bg-white p-md-5 p-4 mb-5 border">
+          <div class="row">
+            <div class="col-md-6 form-group">
+              <label class="text-black font-weight-bold" for="name">Name</label>
+              <input type="text" id="name" class="form-control " (change)="nameEvent($event)">
+            </div>
+            <div class="col-md-6 form-group">
+              <label class="text-black font-weight-bold" for="prenom">last Name</label>
+              <input type="text" id="prenom" class="form-control " (change)="prenomEvent($event)">
+            </div>
+          </div>
+      
+          <div class="row">
+            <div class="col-md-12 form-group">
+              <label class="text-black font-weight-bold" for="email">Email</label>
+              <input type="email" id="email" class="form-control " (change)="emailEvent($event)">
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-md-12 form-group">
+              <label class="text-black font-weight-bold" for="password">password</label>
+              <input type="text" id="password" class="form-control"(change)="passwordEvent($event)">
+            </div>
+            
+          </div>
+
+        
+          
+
+          <div class="row mb-4">
+            <div class="col-md-12 form-group">
+              <label class="text-black font-weight-bold" for="image">Image</label>
+              <input type="file" id="image" class="form-control" (change)="ImageEvent($event)" >
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-6 form-group">
+              <input type="submit" (click)="addclient()" value="Reserve Now" class="btn btn-primary text-white py-3 px-5 font-weight-bold">
+            </div>
+          </div>
+        </form>
+
+      </div>
+      <div class="col-md-5 aos-init aos-animate" data-aos="fade-up" data-aos-delay="200">
+        <div class="row">
+          <div class="col-md-10 ml-auto contact-info">
+            <!-- <p><span class="d-block">image:</span> <span class="text-black"> {{path}}<img src="{{image}}" class="rounded" alt="..."></span></p> -->
+            <p><span class="d-block">name : </span> <span class="text-black"> 
+                {{name}}  {{prenom}}
+            </span></p>
+            <p><span class="d-block">email : </span> <span class="text-black"> {{email}}</span></p>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>

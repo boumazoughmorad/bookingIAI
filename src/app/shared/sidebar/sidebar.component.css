@@ -1,0 +1,61 @@
+
+.is-active {
+    background-color: #a70000;
+    color: white ;
+  }
+  .is-active i{
+    color: rgb(255, 255, 255) ;
+  }
+  .is-active mat-icon{
+    color: white ;
+  }
+  
+  mat-list{
+    position:fixed;
+  }
+  mat-list a:hover {
+    background-color: #272343;
+    color: white ;
+  
+  }
+  
+  mat-list a:focus{
+    background-color: #272343; 
+    color: white;
+  }
+  
+  mat-list a:hover i{
+    color: white ;
+  }
+  mat-list a:hover mat-icon{
+    color: white ;
+  }
+  mat-list a:focus i{
+    color: white ;
+  }
+  mat-list a:focus mat-icon{
+    color: white ;
+  }
+  
+  
+  .c-primary{
+    color: #ffffff;
+  } 
+  
+  
+  .c-blue {
+      color: #4099ff;
+  }
+  
+  .c-green {
+      color: #2ed8b6;
+  }
+  
+  .c-yellow {
+      color: #FFB64D;
+  }
+  
+  .c-pink {
+      color: #FF5370;
+  }
+  
